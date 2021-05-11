@@ -4,7 +4,10 @@ const LandingPage = () => {
     
     return (
         <div className='landingpage centered-container'>
-            <h1>andrew rusli - web developer</h1>
+            <div className='title'>
+                <h1>andrew rusli</h1>
+                <h1>web developer</h1>
+            </div>
             <ul>
                 <li>tetris</li>
                 <li>fullstack react app</li>

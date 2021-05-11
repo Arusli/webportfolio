@@ -1,13 +1,23 @@
 import react from 'react';
+import list from '../images/list.png'
 
 const List = () => {
     return (
-        <div className='list centered-container'>
-            <h2>Fullstack List Maker</h2>
-            <p>This fullstack CRUD project is built with React JS/Node/Express/MySql and integrates with Google Login.</p>
-            <p>The App allows Google users to log in and make personalized lists, which are saved to a remote database.</p>
-            <p>The backend server is deployed via Heroku, the front end with Netlify.</p>
-        </div>     
+
+        <div className='bg-image centered-container' style={{backgroundImage: `url(${list})`, }}>
+            <div className='inner-container centered-container'>
+                <div className='list'>
+                    <h2>Fullstack List Maker</h2>
+                    <div className='inner-div'>Fullstack CRUD project</div>
+                    <div className='inner-div'>Built with React/Node/Express/MySql</div>
+                    <div className='inner-div'>Integrated with Google Login.</div>
+                    <div className='inner-div'>Users can make personalized lists.</div>
+                    <div className='inner-div'>Deployed with Heroku and Netlify</div>
+                </div>  
+            </div>
+        </div>    
+
+          
     )
 }
 
