@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.wrapper {
+    height: 100vh;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+h1 {
+    font-weight: normal;
+    margin: 0;
+    padding: .5em;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: coral;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+.landingpage ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.landingpage {
+    line-height: 2.2;
+    letter-spacing: .2em;
+}
+
+.tetris {
+    background-color: cornflowerblue;
+}
+
+.list {
+    background-color: salmon;
+}
+
+.resume {
+    background-color: teal;
 }
