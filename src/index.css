@@ -18,40 +18,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid 1px black; */
 }
 
 h1 {
     font-weight: normal;
 }
 
-h2 {
-    margin-top: 40px;
-}
-
 a {
     text-decoration: none;
 }
-
-
-/* button {
-    cursor: pointer;
-    font-size: 1.5em;
-    width: 400px;
-    height: 200px;
-    padding: 5px;
-    transition: all .5s;
-    border-radius: 10px;
-    border: none;
-    letter-spacing: .2em;
-    color: black;
-    background-color: teal;
-}
-
-button:hover {
-    color: beige;
-    background-color: teal;
-} */
 
 .landingpage li {
     cursor: pointer;
@@ -62,9 +37,8 @@ button:hover {
 }
 
 p {
-    max-width: 400px;
-    min-width: 200px;
-    margin-top: 20px;
+    margin-top: 5px;
+    font-size: .7em;
 }
 
 .centered-container {
@@ -101,17 +75,8 @@ p {
     height: 100vh;
 }
 
-.tetris-header {
-    padding: 10px 30px;
-    border: solid 1px white;
-    transition: all .5s;
-}
-
-.tetris-header:hover {
-    padding: 10px 60px;
-}
-
-.tetris {
+.project-square {
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -120,48 +85,41 @@ p {
     width: 400px;
     height: 400px;
     padding: 20px;
-    background-color: black;
-    color: white;
     transition: all .5s;
     cursor: pointer;
+}
+
+.project-square:hover {
+    width: 420px;
+    height: 420px;
+}
+
+.tetris {
+    background-color: black;
+    color: white;
 }
 
 .tetris:hover {
     background-color: teal;
-    color: beige;
-    width: 420px;
-    height: 420px;
 }
 
-.list-header {
+.project-header {
     padding: 10px 30px;
     border: solid 1px white;
     transition: all .5s;
 }
 
-.list-header:hover {
+.project-header:hover {
     padding: 10px 60px;
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 15px;
-    padding: 20px;
-    width: 400px;
-    height: 400px;
     background-color: saddlebrown;
     color: white;
-    transition: all 1s;
 }
 
 .list:hover {
     background-color: salmon;
-    width: 420px;
-    height: 420px;
 }
 
 .bg-color {
@@ -169,6 +127,7 @@ p {
 }
 
 .resume {
+    max-width: 60vw;
     color: black;
     font-size: 1.2em;
     line-height: 2.2;
@@ -197,4 +156,49 @@ p {
 .contact-link:hover {
     color: coral;
     font-size: 1.1em;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .landingpage h1 {
+        font-size: 1.5em;
+    }
+
+    .landingpage li {
+        font-size: .8em;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+
+    .project-header {
+        padding: 10px;
+    }
+
+    .project-header:hover {
+        padding: 10px 20px;
+    }
+
+    .project-square {
+        height: 200px;
+        width: 200px;
+        justify-content: space-evenly;
+    }
+
+    .project-square:hover {
+        height: 210px;
+        width: 210px;
+    }
+
+    .resume {
+        max-width: 95vw;
+        color: black;
+        font-size: 1em;
+        line-height: 1.5;
+        letter-spacing: 0em;
+    }
+  
 }
