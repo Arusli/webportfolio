@@ -20,15 +20,6 @@ const Resume = () => {
                         <li>Currently studying React Redux, Enzyme</li>
                     </ul>
                 </div>
-                <div className='sub-header'>
-                        <h4>Contact</h4>
-                        <ul>
-                            <li><a className="contact-link">Tetris Github</a></li>
-                            <li><a className="contact-link">Listmaker Github</a></li>
-                            <li><a className="contact-link">LinkedIn</a></li>
-                            <li><a className="contact-link">andreworusli@gmail.com</a></li>
-                        </ul>
-                </div>
             </div>
         </div>     
     )
