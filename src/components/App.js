@@ -3,6 +3,7 @@ import LandingPage from './LandingPage';
 import Tetris from './Tetris';
 import List from './List';
 import Resume from './Resume';
+import Contact from './Contact';
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
             <Tetris />
             <List />
             <Resume />
+            <Contact />
         </div>       
     )
 }

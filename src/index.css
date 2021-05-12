@@ -4,13 +4,11 @@
     scroll-behavior: smooth;
 }
 
-
 .wrapper {
     height: 100vh;
     overflow: scroll;
     scroll-snap-type: y mandatory;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
 }
 
 .title {
@@ -22,6 +20,7 @@
 
 h1 {
     font-weight: normal;
+    margin: 0 20px;
 }
 
 a {
@@ -37,8 +36,9 @@ a {
 }
 
 p {
-    margin-top: 5px;
-    font-size: .7em;
+    margin-top: 15px;
+    font-size: .8em;
+    text-align: center;
 }
 
 .centered-container {
@@ -79,7 +79,7 @@ p {
     font-size: 1em;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     border-radius: 15px;
     width: 400px;
@@ -87,6 +87,7 @@ p {
     padding: 20px;
     transition: all .5s;
     cursor: pointer;
+    opacity: .9;
 }
 
 .project-square:hover {
@@ -138,14 +139,14 @@ p {
 .inner-div {
     text-align: left;
     margin: 10px;
-    font-size: 1.5rem;
+    font-size: 1.6em;
 }
 
 .sub-header {
     list-style-position: inside;
     box-sizing: border-box;
     margin-top: 20px;
-    border: solid 1px black;
+    border-top: solid 1px black;
     padding: 10px;
 }
 
@@ -162,6 +163,10 @@ p {
 
 
 @media only screen and (max-width: 600px) {
+
+    p {
+        font-size: .7em;
+    }
 
     .landingpage h1 {
         font-size: 1.5em;
@@ -192,6 +197,7 @@ p {
         height: 200px;
         width: 200px;
         justify-content: space-evenly;
+        line-height: 1.0;
     }
 
     .project-square:hover {

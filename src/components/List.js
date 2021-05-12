@@ -11,7 +11,6 @@ const List = () => {
                     <div className='inner-div'>
                         <p>A simple, fullstack, CRUD web app for making lists.</p>
                         <p>React/node/express/mysql.</p>  
-                        <p>Mobile-responsive, integrated with Google Login.</p>  
                     </div>
                 </div></a>  
             </div>
