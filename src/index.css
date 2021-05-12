@@ -170,6 +170,11 @@ p {
         font-size: .8em;
     }
 
+    /* Attempt to fix error on mobile */
+    .bg-image {
+        background-attachment: initial;
+    }
+
     .title {
         flex-direction: column;
     }
