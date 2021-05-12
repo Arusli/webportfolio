@@ -9,8 +9,8 @@ const LandingPage = () => {
                 <h1>Web Developer</h1>
             </div>
             <ul>
-                <li>tetris</li>
-                <li>fullstack react app</li>
+                <li>miami tetris</li>
+                <li>fullstack react listmaker</li>
                 <li>resume</li>
                 <li>contact</li>
             </ul>

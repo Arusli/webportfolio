@@ -5,13 +5,13 @@ const Tetris = () => {
     return (
         <div className='bg-image centered-container' style={{backgroundImage: `url(${tetris})`, }}>
             <div className='inner-container centered-container'>
-                <div className='tetris'>
-                    <h2 className='tetris-header'>Tetris</h2>
+                <a target="_blank" href="https://miamitetris.herokuapp.com/"><div className='tetris'>
+                    <h2 className='tetris-header'>Miami Tetris</h2>
                     <div className='inner-div'>
-                        <p>The classic computer game.</p>
+                        <p>A miami-themed version of the classic game.</p>
                         <p>Built with javascript/html/css.</p>
                     </div>
-                </div>
+                </div></a>
                 
             </div>
         </div>     

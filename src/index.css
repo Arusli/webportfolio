@@ -29,6 +29,10 @@ h2 {
     margin-top: 40px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* button {
     cursor: pointer;
@@ -100,6 +104,11 @@ p {
 .tetris-header {
     padding: 10px 30px;
     border: solid 1px white;
+    transition: all .5s;
+}
+
+.tetris-header:hover {
+    padding: 10px 60px;
 }
 
 .tetris {
@@ -110,6 +119,7 @@ p {
     border-radius: 15px;
     width: 400px;
     height: 400px;
+    padding: 20px;
     background-color: black;
     color: white;
     transition: all .5s;
@@ -126,6 +136,11 @@ p {
 .list-header {
     padding: 10px 30px;
     border: solid 1px white;
+    transition: all .5s;
+}
+
+.list-header:hover {
+    padding: 10px 60px;
 }
 
 .list {
@@ -172,4 +187,14 @@ p {
     margin-top: 20px;
     border: solid 1px black;
     padding: 10px;
+}
+
+.contact-link {
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.contact-link:hover {
+    color: coral;
+    font-size: 1.1em;
 }

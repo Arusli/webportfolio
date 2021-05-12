@@ -6,7 +6,7 @@ const List = () => {
 
         <div className='bg-image centered-container' style={{backgroundImage: `url(${list})`, }}>
             <div className='inner-container centered-container'>
-                <div className='list'>
+                <a target="_blank" href="https://arusli-listmaker.netlify.app/"><div className='list'>
                     <h2 className='list-header'>List Maker</h2>
                     <div className='inner-div'>
                         <p>A simple, fullstack, CRUD web app for making lists.</p>
@@ -15,7 +15,7 @@ const List = () => {
                         <p>Integrated with Google Login.</p>  
                         <p>Deployed via Heroku and Netlify.</p>
                     </div>
-                </div>  
+                </div></a>  
             </div>
         </div>    
 

@@ -8,7 +8,7 @@ const Resume = () => {
                 <div className='sub-header'>
                     <h4>Education</h4>
                     <ul>
-                        <li>B.A. English/Music, Tufts University</li>
+                        <li>BA English/Music, Tufts University</li>
                         <li>12-week Immersive UX Design Course, General Assembly NYC</li>
                     </ul>
                 </div>
@@ -23,10 +23,10 @@ const Resume = () => {
                 <div className='sub-header'>
                         <h4>Contact</h4>
                         <ul>
-                            <li>Tetris Github</li>
-                            <li>Listmaker Github</li>
-                            <li>LinkedIn</li>
-                            <li>Email</li>
+                            <li><a className="contact-link">Tetris Github</a></li>
+                            <li><a className="contact-link">Listmaker Github</a></li>
+                            <li><a className="contact-link">LinkedIn</a></li>
+                            <li><a className="contact-link">andreworusli@gmail.com</a></li>
                         </ul>
                 </div>
             </div>
