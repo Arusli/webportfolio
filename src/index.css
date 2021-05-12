@@ -13,22 +13,54 @@
 
 }
 
-h1 {
-    font-weight: normal;
-    margin: 0;
+.title {
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px black; */
 }
 
-li {
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+
+/* button {
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    transition: all .5s;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: .2em;
+    color: black;
+    background-color: teal;
+}
+
+button:hover {
+    color: beige;
+    background-color: teal;
+} */
+
+.landingpage li {
     cursor: pointer;
 }
 
-li:hover {
+.landingpage li:hover {
     color: coral;
 }
 
 p {
     max-width: 400px;
     min-width: 200px;
+    margin-top: 20px;
 }
 
 .centered-container {
@@ -65,56 +97,79 @@ p {
     height: 100vh;
 }
 
+.tetris-header {
+    padding: 10px 30px;
+    border: solid 1px white;
+}
+
 .tetris {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    cursor: pointer;
     border-radius: 15px;
-    padding: 20px;
     width: 400px;
     height: 400px;
     background-color: black;
     color: white;
-    transition: all 1s;
+    transition: all .5s;
+    cursor: pointer;
 }
 
 .tetris:hover {
     background-color: teal;
     color: beige;
-    width: 450px;
-    height: 450px;
+    width: 420px;
+    height: 420px;
+}
+
+.list-header {
+    padding: 10px 30px;
+    border: solid 1px white;
 }
 
 .list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
     border-radius: 15px;
     padding: 20px;
     width: 400px;
     height: 400px;
-    background-color: beige;
-    color: black;
+    background-color: saddlebrown;
+    color: white;
     transition: all 1s;
 }
 
 .list:hover {
-    background-color: black;
-    color: beige;
-    width: 450px;
-    height: 450px;
+    background-color: salmon;
+    width: 420px;
+    height: 420px;
+}
+
+.bg-color {
+    background-color: beige;
 }
 
 .resume {
-    background-color: teal;
+    color: black;
+    font-size: 1.2em;
+    line-height: 2.2;
+    letter-spacing: .1em;
 }
 
 .inner-div {
-    text-align: center;
+    text-align: left;
     margin: 10px;
     font-size: 1.5rem;
+}
+
+.sub-header {
+    list-style-position: inside;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: solid 1px black;
+    padding: 10px;
 }

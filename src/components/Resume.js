@@ -2,18 +2,33 @@ import react from 'react';
 
 const Resume = () => {
     return (
-        <div className='resume centered-container'>
-            <h2>Resume</h2>
-            <div>Education: B.A. English/Music, Tufts University.</div>
-            <div>UX Design: 12 week immersive UX Design Course, General Assembly, NYC.</div>
-            <div>Stack: Javascridivt, React JS, MySql, Node/Exdivress JS, HTML/CSS, Git, Sketch, divhotoshodiv.</div>
-            <div>Currently Studying: React Redux, React Router, Jest</div>
-            <div>
-                <a>Github</a>
-                /
-                <a>LinkedIn</a>
-                /
-                <a>Email</a>
+        <div className='bg-color centered-container'>
+            <div className='resume'>
+                <h2>Resume</h2>
+                <div className='sub-header'>
+                    <h4>Education</h4>
+                    <ul>
+                        <li>B.A. English/Music, Tufts University</li>
+                        <li>12-week Immersive UX Design Course, General Assembly NYC</li>
+                    </ul>
+                </div>
+                <div className='sub-header'>
+                    <h4>Technology Stack</h4>
+                    <ul>
+                        <li>Javascript, React, MySql, Node/Express, HTML/CSS, Git.</li>
+                        <li>Sketch, Photoshop.</li>
+                        <li>Currently studying React Redux, Enzyme</li>
+                    </ul>
+                </div>
+                <div className='sub-header'>
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>Tetris Github</li>
+                            <li>Listmaker Github</li>
+                            <li>LinkedIn</li>
+                            <li>Email</li>
+                        </ul>
+                </div>
             </div>
         </div>     
     )

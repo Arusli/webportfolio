@@ -7,12 +7,14 @@ const List = () => {
         <div className='bg-image centered-container' style={{backgroundImage: `url(${list})`, }}>
             <div className='inner-container centered-container'>
                 <div className='list'>
-                    <h2>Fullstack List Maker</h2>
-                    <div className='inner-div'>Fullstack CRUD project</div>
-                    <div className='inner-div'>Built with React/Node/Express/MySql</div>
-                    <div className='inner-div'>Integrated with Google Login.</div>
-                    <div className='inner-div'>Users can make personalized lists.</div>
-                    <div className='inner-div'>Deployed with Heroku and Netlify</div>
+                    <h2 className='list-header'>List Maker</h2>
+                    <div className='inner-div'>
+                        <p>A simple, fullstack, CRUD web app for making lists.</p>
+                        <p>Built with React/node/express/mysql.</p>  
+                        <p>Mobile-responsive.</p>
+                        <p>Integrated with Google Login.</p>  
+                        <p>Deployed via Heroku and Netlify.</p>
+                    </div>
                 </div>  
             </div>
         </div>    
