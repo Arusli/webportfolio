@@ -232,7 +232,7 @@ p {
     opacity: .7;
     margin: 20px;
     position: fixed;
-    top: 10px;
+    top: 0px;
     z-index: 99;
 }
 
@@ -302,6 +302,12 @@ p {
 
     .icon {
         font-size: 1.5em;
+    }
+
+    #home-button {
+        font-size: 1.6em;
+        opacity: .7;
+        margin: 5px;
     }
 
 }
