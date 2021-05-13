@@ -17,6 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    animation: 1.2s ease-out slideDown;
 }
 
 h1 {
@@ -34,6 +36,10 @@ a {
 
 li a {
     color: black;
+}
+
+li a:hover {
+    color: lightgrey;
 }
 
 .landingpage li {
@@ -64,6 +70,7 @@ p {
     list-style-type: none;
     text-align: center;
     font-size: 1.5em;
+    animation: 1.2s ease-out slideUp;
 }
 
 .landingpage {
@@ -240,8 +247,30 @@ p {
 }
 
 #home-button:hover {
-    color: salmon;
+    color: goldenrod;
 }
+
+
+/* KEYFRAMES */
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp{
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) {
