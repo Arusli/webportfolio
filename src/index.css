@@ -180,8 +180,6 @@ p {
     margin: 15px;
     padding: 10px;
     color: beige;
-    width: 100px;
-    height: 100px;
 }
 
 .contact-link {
@@ -252,6 +250,14 @@ p {
   
     .flex-contact {
         flex-direction: column;
+    }
+
+    .sub-contact {
+        margin: 5px;
+    }
+
+    .icon {
+        font-size: 1.5em;
     }
 
 }
