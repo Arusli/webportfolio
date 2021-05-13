@@ -11,13 +11,13 @@ const Contact = () => {
             <h2>Contact</h2>
             <div className='flex-contact'>
                 <div className='sub-contact'>
-                    <a><i class='icon'><AiFillGithub /></i></a>
+                    <a target="_blank" href="https://github.com/Arusli"><i class='icon'><AiFillGithub /></i></a>
                 </div>
                 <div className='sub-contact'>
-                    <a><i class='icon'><AiFillLinkedin /></i></a>
+                    <a target="_blank" href="https://linkedin.com/in/andrew-rusli-6299a824"><i class='icon'><AiFillLinkedin /></i></a>
                 </div>
                 <div className='sub-contact'>
-                    <a><i class='icon'><AiOutlineMail /></i></a>
+                    <a target="_blank" href="mailto:andreworusli@gmail.com"><i class='icon'><AiOutlineMail /></i></a>
                 </div>
             </div>
         </div>

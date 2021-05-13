@@ -194,6 +194,12 @@ p {
 
 .icon {
     font-size: 3em;
+    color: beige;
+    transition: all .5s;
+}
+
+.icon:hover {
+    color: goldenrod;
 }
 
 
