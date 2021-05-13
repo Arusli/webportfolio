@@ -89,7 +89,6 @@ p {
     backdrop-filter: blur(12px) grayscale(40%);
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 .project-square {
@@ -132,7 +131,8 @@ p {
 
 .project-header:hover {
     padding: 10px 60px;
-    background-color: goldenrod;
+    color: goldenrod;
+    border-color: goldenrod;
 }
 
 .listmaker {
@@ -240,9 +240,10 @@ p {
 }
 
 .fixed-github-icon {
-    position: fixed;
-    margin-top: 360px;
-    margin-left: -360px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: -10px;
 }
 
 #home-button {
@@ -329,10 +330,10 @@ p {
     .github-icon-container {
         font-size: 2.5em;
     } 
+
     .fixed-github-icon {
-        position: fixed;
-        margin-top: 200px;
-        margin-left: -200px;
+        top: 20px;
+        left: -10px;
     }
 
     .resume {
