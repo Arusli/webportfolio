@@ -15,7 +15,7 @@ const List = () => {
                         <p>React/node/express/mysql.</p>  
                     </div>
                 </div></a>  
-                <div className="github-icon-container" ><a><AiFillGithub /></a></div>
+                <div className="github-icon-container" ><a target="_blank" href="https://github.com/Arusli/reactlistmakerclient"><AiFillGithub /></a></div>
             </div>
         </div>    
 

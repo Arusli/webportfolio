@@ -215,13 +215,16 @@ p {
 }
 
 .github-icon-container {
-    color: grey;
     font-size: 3.5em;
     margin: 10px;
     cursor: pointer;
 }
 
-.github-icon-container:hover {
+.github-icon-container a {
+    color: grey;
+}
+
+.github-icon-container a:hover {
     color: beige;
 }
 
@@ -307,6 +310,7 @@ p {
     #home-button {
         font-size: 1.7em;
         opacity: .7;
+        margin: 10px;
     }
 
 }

@@ -15,7 +15,7 @@ const Tetris = () => {
                         <p>Javascript/html/css.</p>
                     </div>
                 </div></a>
-                <div className="github-icon-container"><a><AiFillGithub /></a></div>
+                <div className="github-icon-container"><a target="_blank" href="https://github.com/Arusli/miamitetris"><AiFillGithub /></a></div>
                 
             </div>
         </div>     
