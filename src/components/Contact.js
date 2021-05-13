@@ -11,13 +11,13 @@ const Contact = () => {
             <h2>Contact</h2>
             <div className='flex-contact'>
                 <div className='sub-contact'>
-                    <a><AiFillGithub /></a>
+                    <a><i class='icon'><AiFillGithub /></i></a>
                 </div>
                 <div className='sub-contact'>
-                    <a><AiFillLinkedin /></a>
+                    <a><i class='icon'><AiFillLinkedin /></i></a>
                 </div>
                 <div className='sub-contact'>
-                    <a><AiOutlineMail /></a>
+                    <a><i class='icon'><AiOutlineMail /></i></a>
                 </div>
             </div>
         </div>
