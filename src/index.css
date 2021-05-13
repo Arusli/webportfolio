@@ -87,7 +87,7 @@ p {
     padding: 20px;
     transition: all .5s;
     cursor: pointer;
-    opacity: .9;
+    opacity: .85;
 }
 
 .project-square:hover {
@@ -115,7 +115,7 @@ p {
 }
 
 .list {
-    background-color: saddlebrown;
+    background-color: rgb(3, 117, 170);
     color: white;
 }
 
@@ -202,7 +202,19 @@ p {
     color: goldenrod;
 }
 
+.github-icon-container {
+    color: grey;
+    font-size: 3.5em;
+    margin: 10px;
+    cursor: pointer;
+}
 
+.github-icon-container:hover {
+    color: beige;
+}
+
+
+/* RESPONSIVE */
 @media only screen and (max-width: 600px) {
 
     p {

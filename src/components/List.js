@@ -1,5 +1,6 @@
 import react from 'react';
 import list from '../images/list.png'
+import {AiFillGithub} from 'react-icons/ai';
 
 const List = () => {
     return (
@@ -13,6 +14,7 @@ const List = () => {
                         <p>React/node/express/mysql.</p>  
                     </div>
                 </div></a>  
+                <div className="github-icon-container" ><a><AiFillGithub /></a></div>
             </div>
         </div>    
 
