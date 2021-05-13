@@ -89,6 +89,7 @@ p {
     backdrop-filter: blur(12px) grayscale(40%);
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 .project-square {
@@ -102,23 +103,26 @@ p {
     height: 400px;
     padding: 20px;
     transition: all .5s;
-    cursor: pointer;
     opacity: .85;
 }
 
-.project-square:hover {
+.project-square a {
+    color: white;
+}
+
+/* .project-square:hover {
     width: 420px;
     height: 420px;
-}
+} */
 
 .tetris {
     background-color: black;
     color: white;
 }
 
-.tetris:hover {
+/* .tetris:hover {
     background-color: teal;
-}
+} */
 
 .project-header {
     padding: 10px 30px;
@@ -128,6 +132,7 @@ p {
 
 .project-header:hover {
     padding: 10px 60px;
+    background-color: goldenrod;
 }
 
 .listmaker {
@@ -136,9 +141,9 @@ p {
     color: white;
 }
 
-.listmaker:hover {
+/* .listmaker:hover {
     background-color: salmon;
-}
+} */
 
 .bg-color {
     background-image: linear-gradient(beige, white);
@@ -223,7 +228,6 @@ p {
 
 .github-icon-container {
     font-size: 3.5em;
-    margin: 10px;
     cursor: pointer;
 }
 
@@ -233,6 +237,12 @@ p {
 
 .github-icon-container a:hover {
     color: beige;
+}
+
+.fixed-github-icon {
+    position: fixed;
+    margin-top: 360px;
+    margin-left: -360px;
 }
 
 #home-button {
@@ -305,15 +315,24 @@ p {
     }
 
     .project-square {
-        height: 200px;
-        width: 200px;
+        height: 220px;
+        width: 220px;
         justify-content: space-evenly;
         line-height: 1.0;
     }
 
-    .project-square:hover {
-        height: 210px;
-        width: 210px;
+    /* .project-square:hover {
+        height: 230px;
+        width: 230px;
+    } */
+
+    .github-icon-container {
+        font-size: 2.5em;
+    } 
+    .fixed-github-icon {
+        position: fixed;
+        margin-top: 200px;
+        margin-left: -200px;
     }
 
     .resume {
