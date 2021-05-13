@@ -4,7 +4,7 @@ import {Link} from 'react-scroll';
 const LandingPage = () => {
     
     return (
-        <div className='landingpage centered-container'>
+        <div id='home' className='landingpage centered-container'>
             <div className='title'>
                 <h1>andrew rusli</h1>
                 <h1 style={{color: 'grey', opacity: '.4'}}>web developer</h1>

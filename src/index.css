@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
 }
 
+
 .wrapper {
+    scroll-behavior: smooth;
     height: 100vh;
     overflow: scroll;
     scroll-snap-type: y mandatory;
@@ -78,7 +79,7 @@ p {
 }
 
 .inner-container {
-    backdrop-filter: blur(12px) grayscale(50%);
+    backdrop-filter: blur(12px) grayscale(40%);
     width: 100vw;
     height: 100vh;
 }
@@ -122,12 +123,13 @@ p {
     padding: 10px 60px;
 }
 
-.list {
-    background-color: rgb(3, 117, 170);
+.listmaker {
+    /* background-color: rgb(3, 117, 170); */
+    background-color: black;
     color: white;
 }
 
-.list:hover {
+.listmaker:hover {
     background-color: salmon;
 }
 
@@ -223,6 +225,20 @@ p {
     color: beige;
 }
 
+#home-button {
+    cursor: pointer;
+    color: darkgrey;
+    font-size: 2.2em;
+    opacity: .7;
+    margin: 20px;
+    position: fixed;
+    top: 10px;
+    z-index: 99;
+}
+
+#home-button:hover {
+    color: salmon;
+}
 
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) {
