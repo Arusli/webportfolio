@@ -168,17 +168,21 @@ p {
     justify-content: space-evenly;
 }
 
+.contact h2 {
+    margin-bottom: 30px;
+}
+
 .sub-contact {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     color: beige;
     border: solid 1px beige;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 .contact-link {

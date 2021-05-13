@@ -1,4 +1,6 @@
 import React from 'react';
+import {AiFillGithub, AiFillLinkedin, AiOutlineMail} from 'react-icons/ai';
+
 
 
 const Contact = () => {
@@ -9,13 +11,13 @@ const Contact = () => {
             <h2>Contact</h2>
             <div className='flex-contact'>
                 <div className='sub-contact'>
-                    <a>Github</a>
+                    <a><AiFillGithub /></a>
                 </div>
                 <div className='sub-contact'>
-                    <a>LinkedIn</a>
+                    <a><AiFillLinkedin /></a>
                 </div>
                 <div className='sub-contact'>
-                    <a>Email</a>
+                    <a><AiOutlineMail /></a>
                 </div>
             </div>
         </div>
