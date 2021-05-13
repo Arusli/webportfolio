@@ -31,6 +31,10 @@ a {
     text-decoration: none;
 }
 
+li a {
+    color: black;
+}
+
 .landingpage li {
     cursor: pointer;
 }

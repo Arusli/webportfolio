@@ -3,7 +3,7 @@ import {MdSchool, MdComputer} from 'react-icons/md';
 
 const Resume = () => {
     return (
-        <div className='bg-color centered-container'>
+        <div id='resume' className='bg-color centered-container'>
             <div className='resume'>
                 <div style={{width: '100%', textAlign: 'center'}}><h2>Resume</h2></div>
                 <div className='sub-header'>
