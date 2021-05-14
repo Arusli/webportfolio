@@ -124,6 +124,7 @@ p {
 } */
 
 .project-header {
+    margin: 20px;
     padding: 10px 30px;
     border: solid 1px white;
     transition: all .5s;
@@ -227,7 +228,7 @@ p {
 }
 
 .github-icon-container {
-    font-size: 3.5em;
+    font-size: 3em;
     cursor: pointer;
 }
 
@@ -239,12 +240,8 @@ p {
     color: beige;
 }
 
-.fixed-github-icon {
-    width: 100%;
-    position: relative;
-    top: 100px;
-    left: -10px;
-}
+/* .fixed-github-icon {
+} */
 
 #home-button {
     cursor: pointer;
@@ -331,10 +328,10 @@ p {
         font-size: 2.5em;
     } 
 
-    .fixed-github-icon {
+    /* .fixed-github-icon {
         top: 20px;
         left: -10px;
-    }
+    } */
 
     .resume {
         max-width: 95vw;
