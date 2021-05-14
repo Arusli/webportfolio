@@ -3,6 +3,32 @@
     padding: 0;
 }
 
+h1 {
+    font-weight: normal;
+    margin: 0 20px;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+p {
+    margin-top: 15px;
+    font-size: .9em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: lightgrey;
+}
 
 .wrapper {
     scroll-behavior: smooth;
@@ -21,39 +47,12 @@
     animation: 1.2s ease-out slideDown;
 }
 
-h1 {
-    font-weight: normal;
-    margin: 0 20px;
-}
-
-h2 {
-    font-size: 1.3em;
-}
-
-a {
-    text-decoration: none;
-}
-
-li a {
-    color: black;
-}
-
-li a:hover {
-    color: lightgrey;
-}
-
 .landingpage li {
     cursor: pointer;
 }
 
 .landingpage li:hover {
     color: coral;
-}
-
-p {
-    margin-top: 15px;
-    font-size: .8em;
-    text-align: center;
 }
 
 .centered-container {
@@ -67,6 +66,9 @@ p {
 }
 
 .landingpage ul {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: solid 2px black;
     list-style-type: none;
     text-align: center;
     font-size: 1.5em;
@@ -85,7 +87,7 @@ p {
     background-attachment: fixed;
 }
 
-.inner-container {
+.bg-blur-container {
     backdrop-filter: blur(12px) grayscale(40%);
     width: 100vw;
     height: 100vh;
@@ -103,48 +105,28 @@ p {
     padding: 20px;
     transition: all .5s;
     opacity: .85;
+    background-color: black;
+    color: white;
 }
 
 .project-square a {
     color: white;
 }
 
-/* .project-square:hover {
-    width: 420px;
-    height: 420px;
-} */
-
-.tetris {
-    background-color: black;
-    color: white;
-}
-
-/* .tetris:hover {
-    background-color: teal;
-} */
-
-.project-header {
-    margin: 20px;
+.project-name {
+    font-size: 2em;
+    margin-top: 25px;
+    margin-bottom: 15px;
     padding: 10px 30px;
     border: solid 1px white;
     transition: all .5s;
 }
 
-.project-header:hover {
+.project-name:hover {
     padding: 10px 60px;
     color: goldenrod;
     border-color: goldenrod;
 }
-
-.listmaker {
-    /* background-color: rgb(3, 117, 170); */
-    background-color: black;
-    color: white;
-}
-
-/* .listmaker:hover {
-    background-color: salmon;
-} */
 
 .bg-color {
     background-image: linear-gradient(beige, white);
@@ -240,9 +222,6 @@ p {
     color: beige;
 }
 
-/* .fixed-github-icon {
-} */
-
 #home-button {
     cursor: pointer;
     color: darkgrey;
@@ -260,7 +239,6 @@ p {
 
 
 /* KEYFRAMES */
-
 @keyframes slideDown {
     0% {
         transform: translateY(-100vh);
@@ -284,7 +262,7 @@ p {
 @media only screen and (max-width: 600px) {
 
     p {
-        font-size: .7em;
+        font-size: .6em;
     }
 
     .landingpage h1 {
@@ -304,11 +282,12 @@ p {
         flex-direction: column;
     }
 
-    .project-header {
+    .project-name {
         padding: 10px;
+        font-size: 1.2em;
     }
 
-    .project-header:hover {
+    .project-name:hover {
         padding: 10px 20px;
     }
 
@@ -319,19 +298,9 @@ p {
         line-height: 1.0;
     }
 
-    /* .project-square:hover {
-        height: 230px;
-        width: 230px;
-    } */
-
     .github-icon-container {
         font-size: 2.5em;
     } 
-
-    /* .fixed-github-icon {
-        top: 20px;
-        left: -10px;
-    } */
 
     .resume {
         max-width: 95vw;
